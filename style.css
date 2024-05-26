@@ -82,9 +82,7 @@ main{
 
 
 @media (max-width: 650px) {
-    footer{
-        display: none;
-    }
+
     main{
         display: grid;
         grid-template-areas: 
