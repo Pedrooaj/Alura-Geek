@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 import { requisicaoGet } from './connection.js';
 
-const semFoto = '/assets/semFoto.png';
+const semFoto = 'assets/semFoto.png';
 
 function isValidImageUrl(url) {
 	// Expressão regular para validar o formato do URL da imagem
