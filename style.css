@@ -90,7 +90,6 @@ main{
         display: none;
     }
     main{
-        gap: 50px;
         display: grid;
         grid-template-areas: 
         "formulario"
