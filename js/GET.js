@@ -25,7 +25,7 @@ const renderCards = async () => {
 			<div class="card">
 					<img
 						width="20%"
-						src="/${item.imagem}"
+						src="${item.imagem}"
 						alt="Imagem do produto"
 						>
 				<p style="text-align: center;">${item.nome}</p>
