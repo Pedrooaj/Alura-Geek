@@ -200,6 +200,8 @@ input{
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
     padding: 15px;
     background-color: #5D04D9;
     width: 100%;
