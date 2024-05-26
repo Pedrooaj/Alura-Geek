@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek By Pedrooaj</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script type="module" src="js/index.js" defer></script>
+    <script src="https://kit.fontawesome.com/55d9e130b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="assets/coração.svg" alt="btn_remover">
+        <img src="assets/coração.svg" alt="btn_remover">
+        <img src="assets/coração.svg" alt="btn_remover">
+        <h1>
+            AluraGeek
+        </h1>
+    </header>
+    <main>
+        <div class="cards-container" id='infinite-list'>
+            <p class="card_container_title" style="text-align: center; margin-bottom: 2px; position: relative;">MEUS PRODUTOS:</p>
+                <div class="cards_content">
+                    LOADING...
+                </div>
+            
+        </div>
+        <div id="formulario">
+            <h1>Adicionar <br> Produto!</h1>
+            <form id="form_product" method="post">
+                <input id="nome" name="nome" type="text" placeholder="Nome...">
+                <input id="valor" name="valor" type="number" placeholder="Valor...">
+                <input id="imagem" name="imagem" type="text" placeholder="URL-Imagem...">
+                <div id="div-button"><button id="guardar" type="submit">Guardar</button> 
+                <button id="limpar">Limpar</button></div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <img src="assets/coração.svg" >
+            <img src="assets/coração.svg" >
+            <img src="assets/coração.svg" >
+
+            <h1>
+                AluraGeek
+            </h1>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; flex-direction: column;">
+            <p>Desenvolvido por Pedrooaj</p>
+            <p>Alura Latam 2024&copy;</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
