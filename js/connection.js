@@ -1,7 +1,7 @@
 // GET
 async function requisicaoGet() {
 	try {
-		const response = await fetch('http://localhost:3000/produtos');
+		const response = await fetch('https://json-server-pi-beige.vercel.app/produtos');
 		if (!response.ok) {
 			const error = new Error('Erro ao buscar os produtos');
 			error.status = response.status;
@@ -19,7 +19,7 @@ async function requisicaoGet() {
 // POST
 async function requisicaoPost(produto) {
 	try{
-	response = await fetch('http://localhost:3000/produtos', {
+	response = await fetch('https://json-server-pi-beige.vercel.app/produtos', {
 		
 	method: 'POST',
 		headers: {
@@ -35,7 +35,7 @@ async function requisicaoPost(produto) {
 async function requisicaoDelete(id) {
 	console.log(id)
 	try{
-	await fetch(`http://localhost:3000/produtos/${id}`, {
+	await fetch(`https://json-server-pi-beige.vercel.app/produtos/${id}`, {
 		method: 'DELETE',
 		headers: {
 			'Content-Type': 'application/json',
