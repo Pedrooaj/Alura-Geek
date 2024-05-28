@@ -5,7 +5,7 @@ const semFoto = 'assets/semFoto.png';
 
 function isValidImageUrl(url) {
 	// Expressão regular para validar o formato do URL da imagem
-	const imageUrlRegex = /\.(jpg|jpeg|png|gif|bmp|svg|webp|ico|tiff|tif|jpe|jpeg2000|jp2|jxr|xbm|wbmp|ppm|pgm|pcd|pct|pict|pcx|tga|targa|grd|grf|eps|ps|epsf|fli|flc|flx|ayce|xcf|xwd|x11|xbm|xpm|xcf|wbmp)$i;
+	const imageUrlRegex = /\.(jpeg|jpg|gif|png)$/i;;
 	return imageUrlRegex.test(url);
 }
 
