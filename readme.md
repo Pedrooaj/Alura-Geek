@@ -1,7 +1,7 @@
 
 # Alura Geek
 Alura geek e uma plataforma de vendas de produtos geek. Eu efetuei a criação deste projeto no curso front-end da Oracle Next Education
-em parceria com Alura. Neste Projeto eu coloquei em prática todos meus conhecimentos de desenvolvimento front-end vanilla.
+em parceria com Alura. Foi Neste Projeto eu coloquei em prática todos meus conhecimentos de desenvolvimento front-end vanilla.
 
 
 ## Aprendizados
